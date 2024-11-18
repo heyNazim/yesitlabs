@@ -16,7 +16,7 @@ function Dashboard() {
   const [allproductrecord, setAllproductrecord] = useState();
   const [allUsers, setAllUsers] = useState();
   const [allUserCount, setAllUserCount] = useState();
-  const [totalCount, setTotalCount] = useState();
+  // const [totalCount, setTotalCount] = useState();
   const [totalProductCount, setTotalProductCount] = useState();
 
   const [formData, setFormData] = useState({
@@ -95,7 +95,7 @@ function Dashboard() {
   }
        fetchAllUsers()
     fetchAllProductRecords()
-  }, [])
+  }, [navigate])
 
 
 

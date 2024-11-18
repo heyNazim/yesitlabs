@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/Logo.webp'
+// import logo from '../assets/Logo.webp'
 import { FaUserCircle } from "react-icons/fa";
-import { CiDeliveryTruck } from "react-icons/ci";
+// import { CiDeliveryTruck } from "react-icons/ci";
 
 
 import {

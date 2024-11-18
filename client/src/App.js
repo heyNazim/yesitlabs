@@ -6,7 +6,6 @@ import PageNotFound from './pages/PageNotFound';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import CreateProductForm from './dashboard/CreateProduct';
-import Categoryproduct from './pages/ProductPages/Categoryproduct';
 import Cart from './pages/Cart';
 import  { Toaster } from 'react-hot-toast';
 import Dashboard from './pages/dashboard/Dashboard.js';
@@ -26,7 +25,6 @@ function App() {
   <Route path="/createproduct" element={<CreateProductForm />} />
   <Route path="/cart" element={<Cart />} />
 
-  <Route path="/procat" element={<Categoryproduct/>} />
   {/* <Route path="/header" element={<Header />} /> */}
   <Route path="/register" element={<Register />} />
   <Route path="/login" element={<Login />} />
