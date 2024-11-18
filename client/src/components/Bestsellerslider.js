@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import axios from 'axios';
+// import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '../redux/features/cartSlice.js';
@@ -9,16 +9,15 @@ import toast from 'react-hot-toast';
 import Allproductdata from '../Allproducts.js';
 
 
-
 const Bestsellerslider = () => {
-  const [allproducts, setAllproducts] = useState([]);
+  // const [allproducts, setAllproducts] = useState([]);
   const dispatch = useDispatch();
   
-
+  
   // console.log(props.data, "Bestslider")
   const newdata = useSelector((state) => state);
   console.log(newdata, "newdata")
-
+  
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -43,7 +42,7 @@ const Bestsellerslider = () => {
   // }, []);
 
   // const GetAllProducts = async () => {
-  //   const token = localStorage.getItem('Token');
+    //   const token = localStorage.getItem('Token');
 
   //   try {
   //     const result = await axios.get(`${process.env.REACT_APP_API}/api/allproducts`,

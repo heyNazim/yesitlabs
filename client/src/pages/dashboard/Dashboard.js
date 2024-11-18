@@ -90,7 +90,7 @@ function Dashboard() {
 
   useEffect(() => {
   const access =   localStorage.getItem('Role')
-  if(access === "user"){
+  if(!access){
     navigate('../')
   }
        fetchAllUsers()
